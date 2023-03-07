@@ -1,0 +1,30 @@
+{
+  "additional_special_tokens": [
+    "<table>",
+    "</table>",
+    "<td>",
+    "</td>",
+    "<tr>",
+    "</tr>",
+    "<th>",
+    "</th>",
+    "<aoc>",
+    "</aoc>"
+  ],
+  "bos_token": "<s>",
+  "cls_token": "[CLS]",
+  "do_basic_tokenize": true,
+  "do_lower_case": false,
+  "eos_token": "</s>",
+  "mask_token": "[MASK]",
+  "model_max_length": 4096,
+  "name_or_path": "/home/train_1/projects/MRC/Table_MRC/table_bert",
+  "never_split": null,
+  "pad_token": "[PAD]",
+  "sep_token": "[SEP]",
+  "special_tokens_map_file": "/home/train_1/.cache/huggingface/transformers/9bea998b48658e35dd618115a266f6c173183a9a4261fc6e40730d74c4b67899.e3640e465e51ce85d94923a0b396029ecc2e3e4c7764031eee57ab272637652d",
+  "strip_accents": null,
+  "tokenize_chinese_chars": true,
+  "tokenizer_class": "BertTokenizer",
+  "unk_token": "[UNK]"
+}

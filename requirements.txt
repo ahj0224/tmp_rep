@@ -2,5 +2,4 @@ pandas
 streamlit
 numpy
 transformers
---find-links https://download.pytorch.org/whl/torch_stable.html
-torch==1.2.0+cpu
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
